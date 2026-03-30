@@ -1,0 +1,50 @@
+# ═══════════════════════════════════════════════════════════════
+# Attribution Graph Structural Analysis — Default Configuration
+# ═══════════════════════════════════════════════════════════════
+
+# ── Graph Generation ──
+generation:
+  model_name: "google/gemma-2-2b"
+  backend: "nnsight"
+  device: "auto"  # auto-detects MPS on M3
+  threshold: 0.01
+  max_nodes: 500
+
+# ── Synthetic Data (for development) ──
+synthetic:
+  n_clean: 150
+  n_tangled: 150
+  n_mixed: 75
+  output_dir: "data/raw/synthetic"
+
+# ── Structural Metrics ──
+metrics:
+  max_cycles: 1000  # max cycles to enumerate per graph
+
+# ── Model ──
+model_type: "gnn"        # 'mlp' or 'gnn'
+gnn_type: "GAT"          # 'GCN', 'GAT', 'SAGE'
+hidden_dim: 64
+num_gnn_layers: 3
+num_heads: 4
+dropout: 0.3
+pool_type: "mean_max"    # 'mean', 'max', 'add', 'mean_max'
+use_structural_fusion: true
+
+# ── Training ──
+learning_rate: 0.001
+weight_decay: 0.0001
+batch_size: 32
+num_epochs: 100
+patience: 15
+scheduler_factor: 0.5
+scheduler_patience: 5
+
+# ── Data Splits ──
+train_ratio: 0.7
+val_ratio: 0.15
+seed: 42
+
+# ── Logging ──
+log_dir: "results/metrics"
+save_best: true

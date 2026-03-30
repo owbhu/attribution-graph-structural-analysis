@@ -1,0 +1,144 @@
+{
+  "description": "Curated prompt sets for generating attribution graphs across diverse task types. Each category tests different model capabilities, which we hypothesize will produce structurally different attribution graphs.",
+
+  "factual_recall": {
+    "description": "Simple factual questions — expect clean, interpretable circuits",
+    "prompts": [
+      "The capital of France is",
+      "The largest planet in our solar system is",
+      "Water boils at 100 degrees",
+      "The speed of light is approximately 300000",
+      "Shakespeare was born in Stratford",
+      "The chemical symbol for gold is",
+      "Mount Everest is the tallest mountain in",
+      "The first president of the United States was",
+      "Photosynthesis converts sunlight into",
+      "The Amazon River flows through",
+      "DNA stands for deoxyribonucleic",
+      "The Great Wall of China was built to",
+      "Electrons have a negative",
+      "The Pythagorean theorem states that",
+      "Oxygen makes up about 21 percent of",
+      "The Mona Lisa was painted by",
+      "Gravity accelerates objects at 9.8 meters per",
+      "The human body has 206",
+      "The Pacific Ocean is the largest",
+      "Diamonds are made of pure"
+    ]
+  },
+
+  "reasoning": {
+    "description": "Multi-step reasoning — expect more complex, deeper circuits",
+    "prompts": [
+      "If all cats are animals and all animals breathe, then all cats",
+      "If it takes 5 machines 5 minutes to make 5 widgets, then 100 machines would take",
+      "If yesterday was Monday, then the day after tomorrow will be",
+      "A bat and ball cost $1.10. The bat costs $1 more than the ball. The ball costs",
+      "If you rearrange the letters CIFAIPC you get the word",
+      "The next number in the sequence 2, 4, 8, 16, 32 is",
+      "If John is taller than Mary and Mary is taller than Bob, then John is",
+      "Three friends split a $90 bill equally. Each person pays",
+      "A train travels 60 mph for 2.5 hours. The total distance is",
+      "If the pattern is AB, ABC, ABCD, the next item is",
+      "You have a 3-gallon and a 5-gallon jug. To measure exactly 4 gallons you",
+      "If it rains, the ground gets wet. The ground is wet, so",
+      "Half of 2 to the power of 10 equals 2 to the power of",
+      "A rectangle has a perimeter of 20 and length of 7. Its width is",
+      "The sum of angles in a triangle is always",
+      "If 3x + 7 = 22, then x equals",
+      "A car depreciates 20% per year. After 2 years a $10000 car is worth",
+      "The probability of flipping heads twice in a row is",
+      "If the radius of a circle doubles, the area increases by a factor of",
+      "Converting 68 degrees Fahrenheit to Celsius gives"
+    ]
+  },
+
+  "creative_writing": {
+    "description": "Creative generation — expect planning circuits (rhyme, narrative)",
+    "prompts": [
+      "Once upon a time in a land far away, there lived a",
+      "The old lighthouse keeper watched the storm approach with",
+      "Roses are red, violets are blue, sugar is",
+      "In the year 2150, humanity finally discovered",
+      "She opened the ancient book and found a message that",
+      "The last dragon on Earth hid in a cave beneath",
+      "Dear diary, today something extraordinary happened when",
+      "The detective examined the crime scene and noticed a peculiar",
+      "As the spaceship descended through the atmosphere, the crew saw",
+      "The recipe for happiness includes three ingredients:",
+      "The robot looked at its hands and for the first time felt",
+      "Under the moonlight, the garden transformed into a",
+      "The letter arrived fifty years late, and it said",
+      "In a world where music was forbidden, one girl secretly",
+      "The map led to a door that opened into",
+      "When the last tree fell, the silence was broken by",
+      "The painter mixed colors no one had ever seen and created",
+      "They say this house is haunted because every night at midnight",
+      "The astronaut removed her helmet and breathed the alien air which smelled like",
+      "The smallest seed in the garden grew into the most"
+    ]
+  },
+
+  "code_understanding": {
+    "description": "Code-related prompts — tests structured/algorithmic reasoning",
+    "prompts": [
+      "def fibonacci(n): return n if n <= 1 else fibonacci(n-1) +",
+      "The time complexity of binary search is O(",
+      "In Python, a list comprehension is written as [x for x in",
+      "To reverse a linked list, you need to track the previous",
+      "A stack follows LIFO which stands for Last In First",
+      "The SQL query SELECT * FROM users WHERE age >",
+      "In git, to undo the last commit you use git",
+      "A binary tree where every node has at most two children is called",
+      "The difference between == and === in JavaScript is",
+      "To handle errors in Python you use try and",
+      "A hash table resolves collisions using either chaining or",
+      "The HTTP status code 404 means the resource was",
+      "In CSS, flexbox is used for creating",
+      "A recursive function needs a base case to prevent",
+      "The Big O notation O(n log n) is typical for"
+    ]
+  },
+
+  "ambiguous_context": {
+    "description": "Ambiguous or polysemous prompts — likely to trigger superposition",
+    "prompts": [
+      "The bank was",
+      "She picked up the bat and",
+      "The crane lifted",
+      "The bass was",
+      "The lead was",
+      "He wound the",
+      "The bow was",
+      "I saw her duck",
+      "The bark was",
+      "The match was",
+      "The spring was",
+      "The seal was",
+      "The pitcher threw",
+      "The mole was",
+      "The port was",
+      "The current was",
+      "The date was",
+      "The pound was",
+      "The tire began to",
+      "The ring was"
+    ]
+  },
+
+  "multilingual": {
+    "description": "Mixed-language prompts — tests cross-lingual feature activation",
+    "prompts": [
+      "Bonjour, comment allez",
+      "La casa es muy",
+      "Guten Morgen, wie geht es",
+      "The Japanese word for cat is",
+      "Gracias means thank",
+      "In Mandarin, hello is written as",
+      "Das Buch ist sehr",
+      "Je ne sais",
+      "The Spanish word for water is",
+      "Buongiorno, come"
+    ]
+  }
+}

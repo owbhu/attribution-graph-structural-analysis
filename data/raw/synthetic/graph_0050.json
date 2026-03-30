@@ -1,0 +1,1592 @@
+{
+  "prompt": "[synthetic-clean-tree]",
+  "model_name": "synthetic",
+  "target_token": "[synthetic]",
+  "nodes": [
+    {
+      "node_id": "node_0",
+      "layer": 0,
+      "feature_idx": 0,
+      "activation": 0.8500117781285209,
+      "node_type": "logit",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_1",
+      "layer": 1,
+      "feature_idx": 1,
+      "activation": 0.6443003503577766,
+      "node_type": "feature",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_2",
+      "layer": 1,
+      "feature_idx": 2,
+      "activation": 0.5146105407769758,
+      "node_type": "feature",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_3",
+      "layer": 1,
+      "feature_idx": 3,
+      "activation": 0.4952012308841666,
+      "node_type": "feature",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_4",
+      "layer": 2,
+      "feature_idx": 4,
+      "activation": 0.2818919798562131,
+      "node_type": "feature",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_5",
+      "layer": 2,
+      "feature_idx": 5,
+      "activation": 0.3879408505750937,
+      "node_type": "feature",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_6",
+      "layer": 2,
+      "feature_idx": 6,
+      "activation": 0.10170198532677013,
+      "node_type": "feature",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_7",
+      "layer": 2,
+      "feature_idx": 7,
+      "activation": 0.1358104866577813,
+      "node_type": "feature",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_8",
+      "layer": 2,
+      "feature_idx": 8,
+      "activation": 0.16492681769646247,
+      "node_type": "feature",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_9",
+      "layer": 2,
+      "feature_idx": 9,
+      "activation": 0.2874696313132142,
+      "node_type": "feature",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_10",
+      "layer": 2,
+      "feature_idx": 10,
+      "activation": 0.24839072699566395,
+      "node_type": "feature",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_11",
+      "layer": 2,
+      "feature_idx": 11,
+      "activation": 0.13122994668387544,
+      "node_type": "feature",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_12",
+      "layer": 3,
+      "feature_idx": 12,
+      "activation": 0.11193092961135677,
+      "node_type": "feature",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_13",
+      "layer": 3,
+      "feature_idx": 13,
+      "activation": 0.209566419250115,
+      "node_type": "feature",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_14",
+      "layer": 3,
+      "feature_idx": 14,
+      "activation": 0.21354941458539592,
+      "node_type": "feature",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_15",
+      "layer": 3,
+      "feature_idx": 15,
+      "activation": 0.05142279415327002,
+      "node_type": "feature",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_16",
+      "layer": 3,
+      "feature_idx": 16,
+      "activation": 0.1747638779908766,
+      "node_type": "feature",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_17",
+      "layer": 3,
+      "feature_idx": 17,
+      "activation": 0.05114503693352193,
+      "node_type": "feature",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_18",
+      "layer": 3,
+      "feature_idx": 18,
+      "activation": 0.2559224754387558,
+      "node_type": "feature",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_19",
+      "layer": 3,
+      "feature_idx": 19,
+      "activation": 0.1241202266251858,
+      "node_type": "feature",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_20",
+      "layer": 3,
+      "feature_idx": 20,
+      "activation": 0.12469327901890308,
+      "node_type": "feature",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_21",
+      "layer": 3,
+      "feature_idx": 21,
+      "activation": 0.14242678944209577,
+      "node_type": "feature",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_22",
+      "layer": 3,
+      "feature_idx": 22,
+      "activation": 0.12248838353027663,
+      "node_type": "feature",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_23",
+      "layer": 3,
+      "feature_idx": 23,
+      "activation": 0.08365634680745397,
+      "node_type": "feature",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_24",
+      "layer": 3,
+      "feature_idx": 24,
+      "activation": 0.11022086860664349,
+      "node_type": "feature",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_25",
+      "layer": 3,
+      "feature_idx": 25,
+      "activation": 0.19323722378216213,
+      "node_type": "feature",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_26",
+      "layer": 3,
+      "feature_idx": 26,
+      "activation": 0.11818500847741635,
+      "node_type": "feature",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_27",
+      "layer": 3,
+      "feature_idx": 27,
+      "activation": 0.13345184212143965,
+      "node_type": "feature",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_28",
+      "layer": 3,
+      "feature_idx": 28,
+      "activation": 0.19897347540155175,
+      "node_type": "feature",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_29",
+      "layer": 3,
+      "feature_idx": 29,
+      "activation": 0.15825839092277424,
+      "node_type": "feature",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_30",
+      "layer": 3,
+      "feature_idx": 30,
+      "activation": 0.18296403646706402,
+      "node_type": "feature",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_31",
+      "layer": 3,
+      "feature_idx": 31,
+      "activation": 0.11635138914565446,
+      "node_type": "feature",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_32",
+      "layer": 3,
+      "feature_idx": 32,
+      "activation": 0.2629795084062017,
+      "node_type": "feature",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_33",
+      "layer": 3,
+      "feature_idx": 33,
+      "activation": 0.0771082986756015,
+      "node_type": "feature",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_34",
+      "layer": 3,
+      "feature_idx": 34,
+      "activation": 0.20140744140062405,
+      "node_type": "feature",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_35",
+      "layer": 3,
+      "feature_idx": 35,
+      "activation": 0.19659979874616426,
+      "node_type": "feature",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_36",
+      "layer": 3,
+      "feature_idx": 36,
+      "activation": 0.08818097819854405,
+      "node_type": "feature",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_37",
+      "layer": 3,
+      "feature_idx": 37,
+      "activation": 0.0713870152653376,
+      "node_type": "feature",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_38",
+      "layer": 4,
+      "feature_idx": 38,
+      "activation": 0.18128331353855062,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_39",
+      "layer": 4,
+      "feature_idx": 39,
+      "activation": 0.07159142339856389,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_40",
+      "layer": 4,
+      "feature_idx": 40,
+      "activation": 0.10280159288696802,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_41",
+      "layer": 4,
+      "feature_idx": 41,
+      "activation": 0.10848381226234519,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_42",
+      "layer": 4,
+      "feature_idx": 42,
+      "activation": 0.11175981506473225,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_43",
+      "layer": 4,
+      "feature_idx": 43,
+      "activation": 0.12888400114360732,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_44",
+      "layer": 4,
+      "feature_idx": 44,
+      "activation": 0.19990481396767448,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_45",
+      "layer": 4,
+      "feature_idx": 45,
+      "activation": 0.07747677985021782,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_46",
+      "layer": 4,
+      "feature_idx": 46,
+      "activation": 0.12957022477925553,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_47",
+      "layer": 4,
+      "feature_idx": 47,
+      "activation": 0.09771711388118445,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_48",
+      "layer": 4,
+      "feature_idx": 48,
+      "activation": 0.16555437027260853,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_49",
+      "layer": 4,
+      "feature_idx": 49,
+      "activation": 0.10092846027112429,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_50",
+      "layer": 4,
+      "feature_idx": 50,
+      "activation": 0.18067529722118653,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_51",
+      "layer": 4,
+      "feature_idx": 51,
+      "activation": 0.1596413387809885,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_52",
+      "layer": 4,
+      "feature_idx": 52,
+      "activation": 0.15228245713830263,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_53",
+      "layer": 4,
+      "feature_idx": 53,
+      "activation": 0.0495383152402095,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_54",
+      "layer": 4,
+      "feature_idx": 54,
+      "activation": 0.10997417250246433,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_55",
+      "layer": 4,
+      "feature_idx": 55,
+      "activation": 0.026636817018036246,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_56",
+      "layer": 4,
+      "feature_idx": 56,
+      "activation": 0.15269929221982334,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_57",
+      "layer": 4,
+      "feature_idx": 57,
+      "activation": 0.12674896060330618,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_58",
+      "layer": 4,
+      "feature_idx": 58,
+      "activation": 0.18915544989946229,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_59",
+      "layer": 4,
+      "feature_idx": 59,
+      "activation": 0.17296421594907427,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_60",
+      "layer": 4,
+      "feature_idx": 60,
+      "activation": 0.15071271505289602,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_61",
+      "layer": 4,
+      "feature_idx": 61,
+      "activation": 0.08568563549964396,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_62",
+      "layer": 4,
+      "feature_idx": 62,
+      "activation": 0.03240940028070122,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_63",
+      "layer": 4,
+      "feature_idx": 63,
+      "activation": 0.19123189688044184,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_64",
+      "layer": 4,
+      "feature_idx": 64,
+      "activation": 0.08921837944488363,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_65",
+      "layer": 4,
+      "feature_idx": 65,
+      "activation": 0.15795402651774018,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_66",
+      "layer": 4,
+      "feature_idx": 66,
+      "activation": 0.08229833389077261,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_67",
+      "layer": 4,
+      "feature_idx": 67,
+      "activation": 0.07024411090810932,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_68",
+      "layer": 4,
+      "feature_idx": 68,
+      "activation": 0.13738146900275888,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_69",
+      "layer": 4,
+      "feature_idx": 69,
+      "activation": 0.11936279302804415,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_70",
+      "layer": 4,
+      "feature_idx": 70,
+      "activation": 0.13791303655437126,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_71",
+      "layer": 4,
+      "feature_idx": 71,
+      "activation": 0.18191387698933753,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_72",
+      "layer": 4,
+      "feature_idx": 72,
+      "activation": 0.09764259337986166,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_73",
+      "layer": 4,
+      "feature_idx": 73,
+      "activation": 0.10656201380962246,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_74",
+      "layer": 4,
+      "feature_idx": 74,
+      "activation": 0.05818870124313258,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_75",
+      "layer": 4,
+      "feature_idx": 75,
+      "activation": 0.0581342768986077,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_76",
+      "layer": 4,
+      "feature_idx": 76,
+      "activation": 0.029580969783606248,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_77",
+      "layer": 4,
+      "feature_idx": 77,
+      "activation": 0.16059863093965185,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_78",
+      "layer": 4,
+      "feature_idx": 78,
+      "activation": 0.12891517731582763,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_79",
+      "layer": 4,
+      "feature_idx": 79,
+      "activation": 0.11228165900545901,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_80",
+      "layer": 4,
+      "feature_idx": 80,
+      "activation": 0.17984863694049386,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_81",
+      "layer": 4,
+      "feature_idx": 81,
+      "activation": 0.08432788142806684,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_82",
+      "layer": 4,
+      "feature_idx": 82,
+      "activation": 0.09608731954595297,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_83",
+      "layer": 4,
+      "feature_idx": 83,
+      "activation": 0.15512713439685175,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_84",
+      "layer": 4,
+      "feature_idx": 84,
+      "activation": 0.07465422398845964,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_85",
+      "layer": 4,
+      "feature_idx": 85,
+      "activation": 0.07111194071532148,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_86",
+      "layer": 4,
+      "feature_idx": 86,
+      "activation": 0.03966881524454672,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_87",
+      "layer": 4,
+      "feature_idx": 87,
+      "activation": 0.07927089045974893,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_88",
+      "layer": 4,
+      "feature_idx": 88,
+      "activation": 0.0659862866219212,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_89",
+      "layer": 4,
+      "feature_idx": 89,
+      "activation": 0.13600261537007713,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_90",
+      "layer": 4,
+      "feature_idx": 90,
+      "activation": 0.1275468686951345,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_91",
+      "layer": 4,
+      "feature_idx": 91,
+      "activation": 0.035356797530467436,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_92",
+      "layer": 4,
+      "feature_idx": 92,
+      "activation": 0.18080508040188695,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_93",
+      "layer": 4,
+      "feature_idx": 93,
+      "activation": 0.1123795914235383,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_94",
+      "layer": 4,
+      "feature_idx": 94,
+      "activation": 0.19018944179266598,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_95",
+      "layer": 4,
+      "feature_idx": 95,
+      "activation": 0.19342144254913599,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_96",
+      "layer": 4,
+      "feature_idx": 96,
+      "activation": 0.02629762426014226,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_97",
+      "layer": 4,
+      "feature_idx": 97,
+      "activation": 0.1968917933575954,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_98",
+      "layer": 4,
+      "feature_idx": 98,
+      "activation": 0.08150118572709619,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_99",
+      "layer": 4,
+      "feature_idx": 99,
+      "activation": 0.02609276103894828,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_100",
+      "layer": 4,
+      "feature_idx": 100,
+      "activation": 0.12929732757845133,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_101",
+      "layer": 4,
+      "feature_idx": 101,
+      "activation": 0.14881377300471224,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_102",
+      "layer": 4,
+      "feature_idx": 102,
+      "activation": 0.056135357731879686,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_103",
+      "layer": 4,
+      "feature_idx": 103,
+      "activation": 0.07217872345307093,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_104",
+      "layer": 4,
+      "feature_idx": 104,
+      "activation": 0.09449331329998732,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_105",
+      "layer": 4,
+      "feature_idx": 105,
+      "activation": 0.09355574234112797,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_106",
+      "layer": 4,
+      "feature_idx": 106,
+      "activation": 0.07528508695639645,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_107",
+      "layer": 4,
+      "feature_idx": 107,
+      "activation": 0.15413344262997564,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_108",
+      "layer": 4,
+      "feature_idx": 108,
+      "activation": 0.17040459573158795,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_109",
+      "layer": 4,
+      "feature_idx": 109,
+      "activation": 0.09962088103205474,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_110",
+      "layer": 4,
+      "feature_idx": 110,
+      "activation": 0.13447979372754318,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_111",
+      "layer": 4,
+      "feature_idx": 111,
+      "activation": 0.06142517479239902,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    },
+    {
+      "node_id": "node_112",
+      "layer": 4,
+      "feature_idx": 112,
+      "activation": 0.14699281318341093,
+      "node_type": "token_embed",
+      "label": null,
+      "is_interpretable": null
+    }
+  ],
+  "edges": [
+    {
+      "source_id": "node_1",
+      "target_id": "node_0",
+      "weight": 0.6999275083795283
+    },
+    {
+      "source_id": "node_2",
+      "target_id": "node_0",
+      "weight": 0.774191474273036
+    },
+    {
+      "source_id": "node_3",
+      "target_id": "node_0",
+      "weight": 0.8117091354213517
+    },
+    {
+      "source_id": "node_4",
+      "target_id": "node_1",
+      "weight": 0.8094922657725144
+    },
+    {
+      "source_id": "node_5",
+      "target_id": "node_1",
+      "weight": 0.600348218694115
+    },
+    {
+      "source_id": "node_6",
+      "target_id": "node_2",
+      "weight": 0.3869603670611118
+    },
+    {
+      "source_id": "node_7",
+      "target_id": "node_2",
+      "weight": 0.6679063885101376
+    },
+    {
+      "source_id": "node_8",
+      "target_id": "node_3",
+      "weight": 0.35239339961961946
+    },
+    {
+      "source_id": "node_9",
+      "target_id": "node_3",
+      "weight": 0.6957357563616497
+    },
+    {
+      "source_id": "node_10",
+      "target_id": "node_3",
+      "weight": 0.4586265853350343
+    },
+    {
+      "source_id": "node_11",
+      "target_id": "node_3",
+      "weight": 0.917258440064235
+    },
+    {
+      "source_id": "node_12",
+      "target_id": "node_4",
+      "weight": 0.6259566797271245
+    },
+    {
+      "source_id": "node_13",
+      "target_id": "node_4",
+      "weight": 0.7542794010605436
+    },
+    {
+      "source_id": "node_14",
+      "target_id": "node_4",
+      "weight": 0.6507801856398808
+    },
+    {
+      "source_id": "node_15",
+      "target_id": "node_4",
+      "weight": 0.6539427660107255
+    },
+    {
+      "source_id": "node_16",
+      "target_id": "node_5",
+      "weight": 0.6898958086067787
+    },
+    {
+      "source_id": "node_17",
+      "target_id": "node_5",
+      "weight": 0.622229158042065
+    },
+    {
+      "source_id": "node_18",
+      "target_id": "node_5",
+      "weight": 0.49341921832021085
+    },
+    {
+      "source_id": "node_19",
+      "target_id": "node_6",
+      "weight": 0.3681098209739755
+    },
+    {
+      "source_id": "node_20",
+      "target_id": "node_6",
+      "weight": 0.5996314117253628
+    },
+    {
+      "source_id": "node_21",
+      "target_id": "node_6",
+      "weight": 0.46162965266710343
+    },
+    {
+      "source_id": "node_22",
+      "target_id": "node_7",
+      "weight": 0.7427822526982423
+    },
+    {
+      "source_id": "node_23",
+      "target_id": "node_7",
+      "weight": 0.48500589053756427
+    },
+    {
+      "source_id": "node_24",
+      "target_id": "node_7",
+      "weight": 0.5481013340103671
+    },
+    {
+      "source_id": "node_25",
+      "target_id": "node_8",
+      "weight": 0.8063606344293256
+    },
+    {
+      "source_id": "node_26",
+      "target_id": "node_8",
+      "weight": 0.5269654813562186
+    },
+    {
+      "source_id": "node_27",
+      "target_id": "node_8",
+      "weight": 0.3293960094720009
+    },
+    {
+      "source_id": "node_28",
+      "target_id": "node_9",
+      "weight": 0.8875319586613857
+    },
+    {
+      "source_id": "node_29",
+      "target_id": "node_9",
+      "weight": 0.599872421209928
+    },
+    {
+      "source_id": "node_30",
+      "target_id": "node_9",
+      "weight": 0.7635312782034696
+    },
+    {
+      "source_id": "node_31",
+      "target_id": "node_9",
+      "weight": 0.5846663179165368
+    },
+    {
+      "source_id": "node_32",
+      "target_id": "node_10",
+      "weight": 0.4968710963532671
+    },
+    {
+      "source_id": "node_33",
+      "target_id": "node_10",
+      "weight": 0.8780065067558288
+    },
+    {
+      "source_id": "node_34",
+      "target_id": "node_10",
+      "weight": 0.7054135540720351
+    },
+    {
+      "source_id": "node_35",
+      "target_id": "node_10",
+      "weight": 0.6317283120961941
+    },
+    {
+      "source_id": "node_36",
+      "target_id": "node_11",
+      "weight": 1.0107880366463136
+    },
+    {
+      "source_id": "node_37",
+      "target_id": "node_11",
+      "weight": 0.8919666671916239
+    },
+    {
+      "source_id": "node_38",
+      "target_id": "node_12",
+      "weight": 0.42030765610465176
+    },
+    {
+      "source_id": "node_39",
+      "target_id": "node_12",
+      "weight": 0.6206311482031737
+    },
+    {
+      "source_id": "node_40",
+      "target_id": "node_12",
+      "weight": 0.5459422886472128
+    },
+    {
+      "source_id": "node_41",
+      "target_id": "node_13",
+      "weight": 0.5946577799630488
+    },
+    {
+      "source_id": "node_42",
+      "target_id": "node_13",
+      "weight": 0.8306483748324371
+    },
+    {
+      "source_id": "node_43",
+      "target_id": "node_13",
+      "weight": 0.8909154719090429
+    },
+    {
+      "source_id": "node_44",
+      "target_id": "node_13",
+      "weight": 0.4564830078932141
+    },
+    {
+      "source_id": "node_45",
+      "target_id": "node_14",
+      "weight": 0.82952475098292
+    },
+    {
+      "source_id": "node_46",
+      "target_id": "node_14",
+      "weight": 0.6614926337910286
+    },
+    {
+      "source_id": "node_47",
+      "target_id": "node_14",
+      "weight": 0.3786933656123278
+    },
+    {
+      "source_id": "node_48",
+      "target_id": "node_14",
+      "weight": 0.496698349146288
+    },
+    {
+      "source_id": "node_49",
+      "target_id": "node_15",
+      "weight": 0.45854506446200716
+    },
+    {
+      "source_id": "node_50",
+      "target_id": "node_15",
+      "weight": 0.401468033200943
+    },
+    {
+      "source_id": "node_51",
+      "target_id": "node_16",
+      "weight": 0.2977834050228567
+    },
+    {
+      "source_id": "node_52",
+      "target_id": "node_16",
+      "weight": 0.6892131862984935
+    },
+    {
+      "source_id": "node_53",
+      "target_id": "node_16",
+      "weight": 0.40387380313038573
+    },
+    {
+      "source_id": "node_54",
+      "target_id": "node_16",
+      "weight": 0.8432593772964361
+    },
+    {
+      "source_id": "node_55",
+      "target_id": "node_17",
+      "weight": 0.5652804576848699
+    },
+    {
+      "source_id": "node_56",
+      "target_id": "node_17",
+      "weight": 0.7591975336334468
+    },
+    {
+      "source_id": "node_57",
+      "target_id": "node_18",
+      "weight": 0.50462223559643
+    },
+    {
+      "source_id": "node_58",
+      "target_id": "node_18",
+      "weight": 0.44639698779145115
+    },
+    {
+      "source_id": "node_59",
+      "target_id": "node_19",
+      "weight": 0.5160708508034951
+    },
+    {
+      "source_id": "node_60",
+      "target_id": "node_19",
+      "weight": 0.5383622472656762
+    },
+    {
+      "source_id": "node_61",
+      "target_id": "node_20",
+      "weight": 0.25687534516785404
+    },
+    {
+      "source_id": "node_62",
+      "target_id": "node_20",
+      "weight": 0.7808780940339358
+    },
+    {
+      "source_id": "node_63",
+      "target_id": "node_20",
+      "weight": 0.6048069607419345
+    },
+    {
+      "source_id": "node_64",
+      "target_id": "node_20",
+      "weight": 0.31679709918257276
+    },
+    {
+      "source_id": "node_65",
+      "target_id": "node_21",
+      "weight": 0.9740283416516053
+    },
+    {
+      "source_id": "node_66",
+      "target_id": "node_21",
+      "weight": 0.47643503213936395
+    },
+    {
+      "source_id": "node_67",
+      "target_id": "node_21",
+      "weight": 0.4699969615865065
+    },
+    {
+      "source_id": "node_68",
+      "target_id": "node_21",
+      "weight": 0.5428884318452054
+    },
+    {
+      "source_id": "node_69",
+      "target_id": "node_22",
+      "weight": 0.2780238608351
+    },
+    {
+      "source_id": "node_70",
+      "target_id": "node_22",
+      "weight": 0.527989089281602
+    },
+    {
+      "source_id": "node_71",
+      "target_id": "node_22",
+      "weight": 0.8649539037849583
+    },
+    {
+      "source_id": "node_72",
+      "target_id": "node_22",
+      "weight": 0.43253691806936934
+    },
+    {
+      "source_id": "node_73",
+      "target_id": "node_23",
+      "weight": 0.4257799755676959
+    },
+    {
+      "source_id": "node_74",
+      "target_id": "node_23",
+      "weight": 0.6751216055656015
+    },
+    {
+      "source_id": "node_75",
+      "target_id": "node_24",
+      "weight": 0.4683978464283525
+    },
+    {
+      "source_id": "node_76",
+      "target_id": "node_24",
+      "weight": 0.934669820399639
+    },
+    {
+      "source_id": "node_77",
+      "target_id": "node_24",
+      "weight": 0.6514456727665106
+    },
+    {
+      "source_id": "node_78",
+      "target_id": "node_24",
+      "weight": 0.4255579325404837
+    },
+    {
+      "source_id": "node_79",
+      "target_id": "node_25",
+      "weight": 0.4369801365848342
+    },
+    {
+      "source_id": "node_80",
+      "target_id": "node_25",
+      "weight": 0.8518497270323128
+    },
+    {
+      "source_id": "node_81",
+      "target_id": "node_25",
+      "weight": 0.6946818736046025
+    },
+    {
+      "source_id": "node_82",
+      "target_id": "node_25",
+      "weight": 0.9150179724622215
+    },
+    {
+      "source_id": "node_83",
+      "target_id": "node_26",
+      "weight": 0.4516648135115853
+    },
+    {
+      "source_id": "node_84",
+      "target_id": "node_26",
+      "weight": 0.9003126239838485
+    },
+    {
+      "source_id": "node_85",
+      "target_id": "node_27",
+      "weight": 0.3798746131519993
+    },
+    {
+      "source_id": "node_86",
+      "target_id": "node_27",
+      "weight": 0.8471136812814575
+    },
+    {
+      "source_id": "node_87",
+      "target_id": "node_28",
+      "weight": 0.4561676905602838
+    },
+    {
+      "source_id": "node_88",
+      "target_id": "node_28",
+      "weight": 0.5049271550410194
+    },
+    {
+      "source_id": "node_89",
+      "target_id": "node_29",
+      "weight": 0.7893551687319401
+    },
+    {
+      "source_id": "node_90",
+      "target_id": "node_29",
+      "weight": 0.5444053018605188
+    },
+    {
+      "source_id": "node_91",
+      "target_id": "node_30",
+      "weight": 0.8757203419775802
+    },
+    {
+      "source_id": "node_92",
+      "target_id": "node_30",
+      "weight": 0.7405875730149707
+    },
+    {
+      "source_id": "node_93",
+      "target_id": "node_30",
+      "weight": 0.7659651769621921
+    },
+    {
+      "source_id": "node_94",
+      "target_id": "node_31",
+      "weight": 0.8121504428423252
+    },
+    {
+      "source_id": "node_95",
+      "target_id": "node_31",
+      "weight": 0.7984751658795564
+    },
+    {
+      "source_id": "node_96",
+      "target_id": "node_32",
+      "weight": 0.3690966616603812
+    },
+    {
+      "source_id": "node_97",
+      "target_id": "node_32",
+      "weight": 0.5920936918703616
+    },
+    {
+      "source_id": "node_98",
+      "target_id": "node_32",
+      "weight": 0.792478750478461
+    },
+    {
+      "source_id": "node_99",
+      "target_id": "node_33",
+      "weight": 0.6693659076302201
+    },
+    {
+      "source_id": "node_100",
+      "target_id": "node_33",
+      "weight": 0.7572864356940889
+    },
+    {
+      "source_id": "node_101",
+      "target_id": "node_33",
+      "weight": 0.9043263111901703
+    },
+    {
+      "source_id": "node_102",
+      "target_id": "node_34",
+      "weight": 0.3448717248229397
+    },
+    {
+      "source_id": "node_103",
+      "target_id": "node_34",
+      "weight": 0.6223543453644915
+    },
+    {
+      "source_id": "node_104",
+      "target_id": "node_34",
+      "weight": 0.3515638458722971
+    },
+    {
+      "source_id": "node_105",
+      "target_id": "node_35",
+      "weight": 0.4665130249161353
+    },
+    {
+      "source_id": "node_106",
+      "target_id": "node_35",
+      "weight": 0.7429054517689975
+    },
+    {
+      "source_id": "node_107",
+      "target_id": "node_35",
+      "weight": 0.40845784698775334
+    },
+    {
+      "source_id": "node_108",
+      "target_id": "node_36",
+      "weight": 0.89962778712314
+    },
+    {
+      "source_id": "node_109",
+      "target_id": "node_36",
+      "weight": 0.7117802056184754
+    },
+    {
+      "source_id": "node_110",
+      "target_id": "node_37",
+      "weight": 0.5649555489787348
+    },
+    {
+      "source_id": "node_111",
+      "target_id": "node_37",
+      "weight": 0.912429562558937
+    },
+    {
+      "source_id": "node_112",
+      "target_id": "node_37",
+      "weight": 0.5325704291105483
+    }
+  ],
+  "metadata": {
+    "synthetic": true,
+    "type": "clean_tree",
+    "label": 1.0
+  },
+  "generation_time": 0.0
+}

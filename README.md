@@ -66,7 +66,7 @@ Three models compared:
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/attribution-graph-structural-analysis.git
+git clone https://github.com/owenbhu/attribution-graph-structural-analysis.git
 cd attribution-graph-structural-analysis
 
 # Install dependencies
